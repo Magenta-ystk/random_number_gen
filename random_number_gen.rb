@@ -315,9 +315,3 @@ def complement( number )
 	return( number )
 
 end
-
-lfsr = LFSR.new( nil , 20 )
-p complement(lfsr.nextInt)
-while(1)
-	p complement(lfsr.nextInt)
-end
