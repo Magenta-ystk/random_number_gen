@@ -2,7 +2,7 @@
 ####	MTとLFSRの乱数をファイルに吐くプログラム		####
 ####################################################
 require 'securerandom'
-require 'Matrix'
+require 'matrix'
 #require './phase_shifter.rb'
 
 class LFSR
